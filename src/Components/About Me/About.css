@@ -1,0 +1,13 @@
+.my-card {
+    width: 200px;
+    height: auto;
+    background-color: white;
+}
+
+.my-face {
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+    width: auto;
+    object-fit: contain;
+}   
