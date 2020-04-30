@@ -1,6 +1,5 @@
 .header {
-    /* background: url('../../Assets/Images/whiteRiver.jpg') center top; */
-    background: url('../../Assets/Images/Haystack\ Mtn.jpg') center top;
+    background: url('../../Assets/Haystack\ Mtn.jpg') center top;
     background-size: cover;
     margin: 0;
     color: black;
@@ -13,7 +12,5 @@
     top: 80px;
     right: 280px;
 
-    font-family: saudagar;
     font-size: x-large;
-    letter-spacing: .5em;
 }

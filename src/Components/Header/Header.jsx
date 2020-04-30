@@ -2,14 +2,14 @@ import React from 'react';
 
 import './Header.css';
 
-const Header = (props) => {
+const Header = () => {
 
     return (
-        <div>
-            <h2 style={{ fontWeight: 500 }}>hello</h2>
-            <p>and welcome to my portfolio!</p>
-            <hr />
-            <br />
+        <div className='header'>
+            <div className='titleText'>
+                <h1>Daniel Marsh</h1>
+                <h3>Web Developer</h3>
+            </div>
         </div>
     )
 }

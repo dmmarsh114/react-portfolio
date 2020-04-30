@@ -6,17 +6,19 @@ import Header from './Components/Header/Header';
 import Contact from './Components/Contact Me/Contact';
 import About from './Components/About Me/About';
 import Navbar from './Components/Navbar/Navbar';
+import Skills from './Components/Skills/Skills';
 
 function App() {
 
   /*
     ~~TODO~~
     Navbar
-    About Me
-    Projects
-  
     Header/Jumbotron
+    About Me
+    Skills
+    Projects
     Contact Me
+  
   */
 
   return (
@@ -24,6 +26,8 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <hr style={{ width: '80%' }} />
+      <Skills />
       <Contact />
     </div>
   );
