@@ -5,31 +5,9 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Contact from './Components/Contact Me/Contact';
 import About from './Components/About Me/About';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
-
-  const DanielMarsh = {
-    hireable: true,
-    passionate: true,
-    gitHub: '',
-    linkedIn: '',
-    hardWorker: true,
-    talented: 'extremely',
-    skills: [
-      ['Javascript', 'HTML5', 'CSS3', 'C#'],
-      'React',
-      'Legacy React',
-      'Node.js',
-      'Node Express',
-      'SQL',
-      'PostgreSQL'
-    ],
-    interests: [
-      'robots',
-      'video games',
-      'hiking'
-    ]
-  }
 
   /*
     ~~TODO~~
@@ -43,6 +21,7 @@ function App() {
 
   return (
     <div>
+      <Navbar />
       <Header />
       <About />
       <Contact />
