@@ -14,6 +14,7 @@ const About = () => {
         <Container className='about'>
             <Row>
                 <Col>
+                    <h2>About Me</h2>
                     {aboutText}
                 </Col>
             </Row>

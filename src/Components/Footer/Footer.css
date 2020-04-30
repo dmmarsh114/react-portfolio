@@ -1,0 +1,7 @@
+.footer {
+    height: 10vh;
+    background-color: var(--header-bg-color);
+    color: var(--header-font-color);
+    text-align: center;
+    padding: 5px;
+}

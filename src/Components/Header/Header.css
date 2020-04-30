@@ -1,16 +1,40 @@
+/* MOBILE VIEW */
+@media only screen and (max-width: 600px) {
+  .header {
+    background: rgb(2,0,36);
+    background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);     
+}
+
+.titleText {
+    color: white;
+    text-align: center;
+    padding-top: 50%;
+  }
+
+  .navContainer {
+      color: white;
+  }
+}
+
+/* DESKTOP VIEW */
+@media only screen and (min-width: 601px) {
+    .header {
+        background: url('../../Assets/Haystack\ Mtn.jpg') center top;
+    }
+
+    .titleText {
+        position: absolute;
+        text-align: right;
+        top: 80px;
+        right: 280px;
+    
+        font-size: x-large;
+    }
+}
+
 .header {
-    background: url('../../Assets/Haystack\ Mtn.jpg') center top;
     background-size: cover;
     margin: 0;
     color: black;
     height: 100vh;
-}
-
-.titleText {
-    position: absolute;
-    text-align: right;
-    top: 80px;
-    right: 280px;
-
-    font-size: x-large;
 }

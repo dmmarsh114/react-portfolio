@@ -1,3 +1,15 @@
 body {
-    background-color: white;
+    /* COLOR INFO */
+    /* https://www.colorhexa.com/2d4466 */
+
+    /* background-color: rgb(45,102,79); */
+    /* background-color: rgb(103, 76, 45); */
+    /* background-color: rgb(102,45,68); */
+}
+
+
+
+:root {
+  --header-bg-color: rgb(45,68,102);
+  --header-font-color: white;
 }
