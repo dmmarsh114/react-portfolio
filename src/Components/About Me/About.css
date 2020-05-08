@@ -1,7 +1,12 @@
+.aboutTotal {
+    height: 100vh;
+    margin-top: 60px;
+}
+
 .about {
     margin: 25px;
 }
 
-.about h2 {
-    text-align: center;
+.aboutText {
+    margin-top: 30px;
 }

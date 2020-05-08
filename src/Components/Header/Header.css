@@ -2,7 +2,8 @@
 @media only screen and (max-width: 600px) {
   .header {
     background: rgb(2,0,36);
-    background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);     
+    /* background: linear-gradient(rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);      */
+    background: linear-gradient(rgb(45,68,102), white);     
 }
 
 .titleText {
@@ -39,14 +40,24 @@
         text-align: right;
         top: 85px;
         right: 250px;
-    
         font-size: x-large;
-    }
+}
 }
 
 .header {
     background-size: cover;
     margin: 0;
-    color: black;
+    color: var(--header-bg-color);
+    text-shadow: 2px 2px rgb(0,0,0,.30); 
     height: 100vh;
+    font-family: 'Caveat', cursive;
+
+}
+
+#link {
+    color: black;
+}
+
+#link:hover {
+    color: purple;
 }

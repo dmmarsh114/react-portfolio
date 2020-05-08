@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import './Navbar.css';
 
-const Navbar = (props) => {
+const Navbar = () => {
 
     // initial style
     let bc1 = 'transparent';
@@ -33,11 +33,13 @@ const Navbar = (props) => {
     return (
         <div className='navContainer'> {/* see header.css for mobile styling */}
             <div id='nav' className='navbar' style={navStyle} >
-                <ul>
-                    <li>Projects</li>
+                <ul className='otherNav'>
                     <li>Resume</li>
-                    <li>Github</li>
-                    <li>Linkedin</li>
+                </ul>
+                <ul className='pageNav'>
+                    <li>About</li>
+                    <li>Portfolio</li>
+                    <li>Contact</li>
                 </ul>
             </div>
         </div>

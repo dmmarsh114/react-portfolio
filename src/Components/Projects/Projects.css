@@ -1,0 +1,32 @@
+.projects {
+    height: 100vh;
+    background-color: thistle; /* for debugging */
+}
+
+.projectCardContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.projectCard {
+    max-width: 300px;
+    max-height: 370px;
+    text-align: center;
+}
+
+.projectCard h5 {
+    text-align: center;
+}
+
+.projectMedia {
+    height: 140px;
+}
+
+#projectLink {
+    color: rgb(63,81,181);
+}
+
+#projectLink:hover{
+    color: rgb(48, 63, 159);
+}

@@ -3,14 +3,27 @@
     z-index: 5;
     position: fixed;
     width: 100%;
+    display: flex;
 }
 
-.navbar ul {
+.otherNav {
+    text-align: left;
     margin: 0;
     padding: 5px;
+    padding-top: 10px;
+    width: 50%;    
+}
+
+.pageNav {
+    text-align: right;
+    margin: 0;
+    padding: 5px;
+    padding-top: 10px;
+    width: 50%;
 }
 
 .navbar li {
     display: inline;
-    margin-right: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
 }

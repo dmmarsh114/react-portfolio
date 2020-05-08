@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contact.css';
+// import './Contact.css';
 
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
@@ -8,15 +8,13 @@ import Button from '@material-ui/core/Button';
 const Contact = () => {
 
     return (
-        <section>
+        <div>
+            <h1 className='sectionHeader'>Contact Me!</h1>
             <form
                 className='contact-form'
                 action="https://formspree.io/dmmarsh114@gmail.com"
                 method="POST"
             >
-                <h3 className='contact-header'>Like What You See?</h3>
-                <p>Contact Me!</p>
-                <hr />
                 <div className='contact-inputs'>
                     <TextField
                         placeholder='Name'
@@ -52,7 +50,7 @@ const Contact = () => {
                     <Button type='submit' color='primary' variant='contained' id='contact-submit-button'>Send Message</Button>
                 </div>
             </form>
-        </section>
+        </div>
     );
 }
 
