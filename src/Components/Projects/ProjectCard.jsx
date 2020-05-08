@@ -41,9 +41,9 @@ const ProjectCard = (props) => {
                         <a href={props.githubLink} target='blank' id='projectLink'><GitHubIcon fontSize='small' /></a>
                     </Button>
                 </Tooltip>
-                <Button size="small" color="primary" variant='contained'>
+                <a href={props.projectLink} target='blank' id='projectLink'><Button size="small" color="primary" variant='contained'>
                     Try it out!
-                    </Button>
+                </Button></a>
             </CardActions>
         </Card>
     )

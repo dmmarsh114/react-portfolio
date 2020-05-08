@@ -29,4 +29,5 @@
 
 #projectLink:hover{
     color: rgb(48, 63, 159);
+    text-decoration: none;
 }

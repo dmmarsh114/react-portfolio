@@ -6,7 +6,6 @@ import Header from './Components/Header/Header';
 import Contact from './Components/Contact/Contact';
 import About from './Components/About Me/About';
 import Navbar from './Components/Navbar/Navbar';
-import Skills from './Components/Skills/Skills';
 import Footer from './Components/Footer/Footer';
 import Projects from './Components/Projects/Projects';
 
@@ -36,10 +35,9 @@ function App() {
       <Navbar />
       <Header gitHub={githubLink} linkedIn={linkedInLink} />
       <About />
-      {/* <hr style={{ width: '80%' }} /> */}
-      {/* <Skills /> */}
       <hr style={{ width: '80%' }} />
       <Projects />
+      <hr style={{ width: '80%' }} />
       <Contact />
       <Footer />
     </div>
