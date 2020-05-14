@@ -14,25 +14,35 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 const ProjectCard = (props) => {
 
+    const [flip, setFlip] = React.useState(false);
+
+    const flipCard = () => {
+        setFlip(!flip);
+    }
+
     return (
-        <Card className='projectCard'>
-            <CardActionArea>
-                <CardMedia
-                    className='projectMedia'
-                    image={props.pic}
-                    title="check it out!"
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
-                        {props.title}
-                    </Typography>
-                    <Typography gutterBottom variant="subtitle1" component="p">
-                        {props.date}
-                    </Typography>
-                    <Typography variant="body2" color="textSecondary" component="p">
-                        {props.desc}
-                    </Typography>
-                </CardContent>
+        <Card id='projectCard' className='projectCard'>
+            <CardActionArea className='projectCardInterior' onClick={() => flipCard()}>
+                {
+                    flip === true ?
+                        <CardMedia
+                            className='projectMedia'
+                            image={props.pic}
+                            title="check it out!"
+                        />
+                        :
+                        <CardContent className='projectInfo'>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                {props.title}
+                            </Typography>
+                            <Typography gutterBottom variant="subtitle1" component="p">
+                                {props.date}
+                            </Typography>
+                            <Typography variant="body2" color="textSecondary" component="p">
+                                {props.desc}
+                            </Typography>
+                        </CardContent>
+                }
             </CardActionArea>
 
             <CardActions style={{ justifyContent: 'space-between' }}>
