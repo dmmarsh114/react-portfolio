@@ -16,18 +16,12 @@ function App() {
 
   /*
     ~~TODO~~
-    Projects
-    
+    projects carousel
+    make it responsive    
     insert copy
     add resume
     add fonts
     adjust contact form
-
-    Navbar
-    Header/Jumbotron
-    About Me
-    Skills
-    Contact Me
   */
 
   return (

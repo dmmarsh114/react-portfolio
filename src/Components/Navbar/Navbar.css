@@ -27,3 +27,9 @@
     margin-right: 5%;
     margin-left: 5%;
 }
+
+.navbar a {
+    color: inherit;
+    text-decoration: none;
+    
+}

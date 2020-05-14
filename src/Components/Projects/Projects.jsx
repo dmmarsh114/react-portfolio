@@ -9,32 +9,33 @@ import testPic from '../../Assets/whiteRiver.jpg';
 const Projects = () => {
 
     return (
+        <div id='projectSection'>
+            <div className='projects'>
+                <h1 className='sectionHeader'>Projects</h1>
 
-        <div className='projects'>
-            <h1 className='sectionHeader'>Projects</h1>
+                <div className='projectCardContainer'>
 
-            <div className='projectCardContainer'>
+                    {/* TRAILTRACKER */}
+                    <ProjectCard
+                        title={'TrailTracker'}
+                        date={'March 2020'}
+                        desc={'Users can post about trails that they have recently hiked, as well as filter through posts to find highly-rated trails near them.'}
+                        githubLink={'https://github.com/dmmarsh114/trail-tracker-client'}
+                        projectLink={'https://dmm-trailtracker-client.herokuapp.com/'}
+                        pic={testPic}
+                    />
 
-                {/* TRAILTRACKER */}
-                <ProjectCard
-                    title={'TrailTracker'}
-                    date={'March 2020'}
-                    desc={'Users can post about trails that they have recently hiked, as well as filter through posts to find highly-rated trails near them.'}
-                    githubLink={'https://github.com/dmmarsh114/trail-tracker-client'}
-                    projectLink={'https://dmm-trailtracker-client.herokuapp.com/'}
-                    pic={testPic}
-                />
+                    {/* SUPREMEMES */}
+                    <ProjectCard
+                        title={'Suprememes'}
+                        date={'April 2020'}
+                        desc={'A place to view memes. Users can sign in to comment on memes, as well as upload their own.'}
+                        githubLink={'https://github.com/dmmarsh114/Red-Badge-Client'}
+                        projectLink={'https://team6-red-badge-meme-client.herokuapp.com/'}
+                        pic={testPic}
+                    />
 
-                {/* SUPREMEMES */}
-                <ProjectCard
-                    title={'Suprememes'}
-                    date={'April 2020'}
-                    desc={'A place to view memes. Users can sign in to comment on memes, as well as upload their own.'}
-                    githubLink={'https://github.com/dmmarsh114/Red-Badge-Client'}
-                    projectLink={'https://team6-red-badge-meme-client.herokuapp.com/'}
-                    pic={testPic}
-                />
-
+                </div>
             </div>
         </div>
     )

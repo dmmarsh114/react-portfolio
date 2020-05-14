@@ -9,7 +9,7 @@ import aboutText from './aboutText';
 const About = () => {
 
     return (
-        <div className='aboutTotal'>
+        <div id='aboutSection' className='aboutTotal'>
             <div className='about'>
                 <h1 className='sectionHeader'>About Me</h1>
                 <div className='aboutText'>

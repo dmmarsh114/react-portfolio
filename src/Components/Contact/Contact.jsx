@@ -9,7 +9,7 @@ import { Col, Row, Container } from 'reactstrap';
 const Contact = () => {
 
     return (
-        <div className='contact'>
+        <div id='contactSection' className='contact'>
             <h1 className='sectionHeader'>Contact Me!</h1>
             <form action="https://formspree.io/dmmarsh114@gmail.com" method="POST">
 
