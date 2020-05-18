@@ -12,11 +12,14 @@ const Projects = () => {
         <div id='projectSection'>
             <div className='projects'>
                 <h1 className='sectionHeader'>Projects</h1>
+                <br />
 
                 <div className='projectCardContainer'>
 
                     {/* TRAILTRACKER */}
                     <ProjectCard
+                        className='ptest'
+
                         title={'TrailTracker'}
                         date={'March 2020'}
                         desc={'Users can post about trails that they have recently hiked, as well as filter through posts to find highly-rated trails near them.'}
@@ -27,9 +30,23 @@ const Projects = () => {
 
                     {/* SUPREMEMES */}
                     <ProjectCard
+                        className='ptest'
+
                         title={'Suprememes'}
                         date={'April 2020'}
                         desc={'A place to view memes. Users can sign in to comment on memes, as well as upload their own.'}
+                        githubLink={'https://github.com/dmmarsh114/Red-Badge-Client'}
+                        projectLink={'https://team6-red-badge-meme-client.herokuapp.com/'}
+                        pic={testPic}
+                    />
+
+                    {/*  */}
+                    <ProjectCard
+                        className='ptest'
+
+                        title={'title'}
+                        date={'date'}
+                        desc={'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum'}
                         githubLink={'https://github.com/dmmarsh114/Red-Badge-Client'}
                         projectLink={'https://team6-red-badge-meme-client.herokuapp.com/'}
                         pic={testPic}
