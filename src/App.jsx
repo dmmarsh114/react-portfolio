@@ -14,24 +14,12 @@ const linkedInLink = 'https://www.linkedin.com/in/daniel-marsh-843aa5b7';
 
 function App() {
 
-  /*
-    ~~TODO~~
-    projects carousel
-    make it responsive    
-    insert copy
-    add resume
-    add fonts
-    adjust contact form
-  */
-
   return (
     <div>
       <Navbar />
       <Header gitHub={githubLink} linkedIn={linkedInLink} />
       <About />
-      <hr style={{ width: '80%' }} />
       <Projects />
-      <hr style={{ width: '80%' }} />
       <Contact />
       <Footer />
     </div>

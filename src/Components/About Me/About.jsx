@@ -1,8 +1,7 @@
 import React from 'react';
 
-import Skills from '../Skills/Skills';
-
 import './About.css';
+import './Skills.css';
 
 import aboutText from './aboutText';
 
@@ -12,21 +11,22 @@ const About = () => {
         <div id='aboutSection' className='aboutTotal'>
             <div className='about'>
                 <h1 className='sectionHeader'>About Me</h1>
+                <hr className='sectionHr' />
                 <div className='aboutText'>
                     {aboutText}
                 </div>
             </div>
-            <hr style={{ width: '80%', margin: '50px auto 50px auto' }} />
-            {/* <Skills /> */}
+            <br />
             <div className='skills'>
                 <h1 className='sectionHeader'>I also have skills!</h1>
+                <hr className='sectionHr' />
                 <ul>
-                    <li>Charisma</li>
-                    <li>Coding</li>
-                    <li>Sex Appeal</li>
-                    <li>HTML</li>
-                    <li>Tiger's Blood</li>
-                    <li>CSS</li>
+                    <li>React</li>
+                    <li>TypeScript</li>
+                    <li>C#</li>
+                    <li>Node.js</li>
+                    <li>Express</li>
+                    <li>SQL</li>
                 </ul>
             </div>
         </div>

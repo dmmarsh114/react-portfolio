@@ -11,12 +11,22 @@ body {
     /* background-color: rgb(45,102,79); */
     /* background-color: rgb(103, 76, 45); */
     /* background-color: rgb(102,45,68); */
+
+        background: linear-gradient(white, whitesmoke);     
+
 }
 
 .sectionHeader {
   color: var(--header-bg-color);
   font-family: 'Caveat', cursive;
   text-align: center;
+}
+
+.sectionHr {
+  width: 60%;
+  margin: 40px auto 40px auto;
+  border-color: var(--header-bg-color);
+  border-width: thin;
 }
 
 :root {

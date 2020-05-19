@@ -59,6 +59,7 @@ const Projects = () => {
         <div id='projectSection'>
             <div className='projects'>
                 <h1 className='sectionHeader'>Projects</h1>
+                <hr className='sectionHr' />
                 <br />
                 <div className='projectCardContainer'>
                     {displayProjects()}

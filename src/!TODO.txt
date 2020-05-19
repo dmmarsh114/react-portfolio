@@ -1,0 +1,8 @@
+~~TODO~~
+
+insert copy
+add resume
+
+adjust contact form responsiveness
+navbar responsive
+projects responsive

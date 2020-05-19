@@ -11,6 +11,7 @@ const Contact = () => {
     return (
         <div id='contactSection' className='contact'>
             <h1 className='sectionHeader'>Contact Me!</h1>
+            <hr className='sectionHr' />
             <form action="https://formspree.io/dmmarsh114@gmail.com" method="POST">
 
                 <div className='contactForm'>
