@@ -6,3 +6,9 @@ add resume
 adjust contact form responsiveness
 navbar responsive
 projects responsive
+
+~~PROJECTS TO ADD~~
+1. TrailTracker/Suprememes
+2. Captain Cosmos
+3. p5js projects
+4. DnD App (whenever that gets made...)

@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div id='aboutSection' className='aboutTotal'>
             <div className='about'>
-                <h1 className='sectionHeader'>About Me</h1>
+                <h1 className='sectionHeader'>Introduction</h1>
                 <hr className='sectionHr' />
                 <div className='aboutText'>
                     {aboutText}
@@ -18,7 +18,7 @@ const About = () => {
             </div>
             <br />
             <div className='skills'>
-                <h1 className='sectionHeader'>I also have skills!</h1>
+                <h1 className='sectionHeader'>Skills</h1>
                 <hr className='sectionHr' />
                 <ul>
                     <li>React</li>

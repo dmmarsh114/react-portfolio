@@ -40,6 +40,11 @@ const Projects = () => {
                 <div key={index} className='projectCard'>
                     <div>
                         <div className={index % 2 === 0 ? 'projectMedia right' : 'projectMedia left'}>
+                            <a href={project.projectLink} target='blank'>
+                                <div className='projectPicLayer'>
+                                    <p>Try it out!</p>
+                                </div>
+                            </a>
                             <img src={project.pic} alt="project screenshot" />
                         </div>
                         <div className={index % 2 === 0 ? 'projectDesc left' : 'projectDesc right'}>

@@ -20,13 +20,17 @@ const Navbar = () => {
         color: fontColor
     }
 
+    const [showBrand, setShowBrand] = useState(false);
+
     window.addEventListener('scroll', () => {
         if (window.pageYOffset > 0) {
             setBackground(bc2);
             setFontColor(fc2);
+            setShowBrand(true);
         } else {
             setBackground(bc1);
             setFontColor(fc1);
+            setShowBrand(false);
         }
     })
 
@@ -34,9 +38,10 @@ const Navbar = () => {
         <div className='navContainer'> {/* see header.css for mobile styling */}
             <div id='nav' className='navbar' style={navStyle} >
                 <ul className='otherNav'>
-                    <li>Resume</li>
+                    {showBrand ? <a href="#home">Daniel Marsh</a> : null}
                 </ul>
                 <ul className='pageNav'>
+                    <li><a href="">Resume</a></li>
                     <li><a href="#aboutSection">About</a></li>
                     <li><a href="#projectSection">Portfolio</a></li>
                     <li><a href="#contactSection">Contact</a></li>
