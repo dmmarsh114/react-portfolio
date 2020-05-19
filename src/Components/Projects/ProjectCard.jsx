@@ -8,9 +8,11 @@ const ProjectCard = (props) => {
 
     return (
 
-        <div className='projectCard'>
+        <div id='projectCard' className='projectCard'>
             <div>
-                <img src={props.pic} alt='project screenshot' />
+                <div className='projectMedia'>
+                    <img src={props.pic} alt='project screenshot' />
+                </div>
                 <div className='projectDesc'>
                     <h3 className='projectTitle'>{props.title}</h3>
                     <h5 className='projectTitle'>{props.date}</h5>
