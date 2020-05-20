@@ -84,10 +84,10 @@
     transition: opacity 1s;
 }
 
-.projectCard:hover .projectPicLayer {
+.projectMedia:hover .projectPicLayer {
     height: 100%;
 }
 
-.projectCard:hover .projectPicLayer p {
+.projectMedia:hover .projectPicLayer p {
     opacity: 100%;
 }
