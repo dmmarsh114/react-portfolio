@@ -9,8 +9,8 @@ const Navbar = () => {
     let fc1 = 'inherit';
 
     // scroll style 
-    let bc2 = 'var(--header-bg-color)';
-    let fc2 = 'var(--header-font-color)';
+    let bc2 = 'var(--header-font-color)';
+    let fc2 = 'white';
 
     const [background, setBackground] = useState(bc1);
     const [fontColor, setFontColor] = useState(fc1);

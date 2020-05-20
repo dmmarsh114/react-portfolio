@@ -15,7 +15,7 @@
 .projectTitle {
     margin-bottom: 0;
     margin-top: 0;
-    color: rgb(48, 63, 159);
+    color: var(--header-font-color);
     text-align: center !important;
 }
 
@@ -54,7 +54,7 @@
 }
 
 #projectLink {
-    color: rgb(48, 63, 159);
+    color: var(--header-font-color);
     margin-right: 10px;
 }
 
