@@ -3,9 +3,33 @@
 insert copy
 add resume
 
+play around w/colors
+change header font
+
 adjust contact form responsiveness
-navbar responsive
-projects responsive
+
+HEADER
+-text animation?
+-change icons (same shape and size)
+
+NAV
+-responsiveness
+    - icons? 
+    - hamburger?
+-add p5 gallery tab?
+
+PROJECTS
+-img as link
+-img lifts off page w/shadow?
+-responsiveness 
+    - projects in defined cards (off-white or cream background?)
+    - no images, just text
+
+SKILLS
+-icons
+-pick skills?
+
+
 
 ~~PROJECTS TO ADD~~
 1. TrailTracker/Suprememes
