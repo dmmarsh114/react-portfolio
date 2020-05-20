@@ -21,7 +21,7 @@ const Contact = () => {
                     </div>
 
                     <div className='contactMessage'>
-                        <TextField multiline margin='normal' fullWidth rows={10} id="messageInput" label="Message" variant="outlined" />
+                        <TextField multiline margin='normal' fullWidth rows={5} id="messageInput" label="Message" variant="outlined" />
                     </div>
 
                     <div>
