@@ -17,10 +17,10 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Header gitHub={githubLink} linkedIn={linkedInLink} />
+      <Header gitHub={githubLink} linkedIn={linkedInLink} /> {/*ADD RESUME*/}
       <About />
       <Projects />
-      <Contact />
+      <Contact github={githubLink} linkedIn={linkedInLink} /> {/*ADD RESUME*/}
       <Footer />
     </div>
   );

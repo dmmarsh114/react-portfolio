@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Projects.css';
+import Tooltip from '@material-ui/core/Tooltip';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 import testPic from '../../Assets/whiteRiver.jpg';
@@ -54,7 +55,9 @@ const Projects = () => {
                             <h3 className='projectTitle'>{project.title}</h3>
                             <h5 className='projectTitle'>{project.date}</h5>
                             <p>{project.desc}</p>
-                            <a href={project.githubLink} target='blank' id='projectLink' className={index % 2 === 0 ? 'right' : 'left'}><GitHubIcon fontSize='small' /></a>
+                            <Tooltip title='Show me the code!' placement='top' arrow>
+                                <a href={project.githubLink} target='blank' id='projectLink' className={index % 2 === 0 ? 'right' : 'left'}><GitHubIcon fontSize='small' /></a>
+                            </Tooltip>
                             <a href={project.projectLink} target='blank' id='projectLink' className={index % 2 === 0 ? 'right' : 'left'}>Try it out!</a>
                         </div>
                     </div>

@@ -55,3 +55,23 @@
     background-color: transparent;
     color: var(--header-font-color);
 }
+
+#contactHr {
+    margin-bottom: 20px;
+}
+
+.contactLinkContainer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.contactLink {
+    font-size: 2em;
+    color: var(--header-font-color);
+    margin: 0 15px 0 15px;
+}
+
+.contactLink:hover {
+    color: black;
+}
