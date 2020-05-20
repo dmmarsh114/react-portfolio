@@ -4,6 +4,9 @@ import './Projects.css';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 import testPic from '../../Assets/whiteRiver.jpg';
+import trailTrackerPic from '../../Assets/trailTracker.png';
+import suprememesPic from '../../Assets/suprememes.png';
+import phyllotaxisPic from '../../Assets/phyllotaxis.png';
 
 const Projects = () => {
 
@@ -14,7 +17,7 @@ const Projects = () => {
             desc: 'Users can post about trails that they have recently hiked, as well as filter through posts to find highly-rated trails near them.',
             githubLink: 'https://github.com/dmmarsh114/trail-tracker-client',
             projectLink: 'https://dmm-trailtracker-client.herokuapp.com/',
-            pic: testPic,
+            pic: trailTrackerPic,
         },
         {
             title: 'Suprememes',
@@ -22,7 +25,7 @@ const Projects = () => {
             desc: 'A place to view memes. Users can sign in to comment on memes, as well as upload their own.',
             githubLink: 'https://github.com/dmmarsh114/Red-Badge-Client',
             projectLink: 'https://team6-red-badge-meme-client.herokuapp.com/',
-            pic: testPic,
+            pic: suprememesPic,
         },
         {
             title: 'title',
@@ -30,7 +33,7 @@ const Projects = () => {
             desc: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
             githubLink: '',
             projectLink: '',
-            pic: testPic,
+            pic: phyllotaxisPic,
         }
     ];
 
