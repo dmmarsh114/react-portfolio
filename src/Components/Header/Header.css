@@ -41,7 +41,7 @@
         position: absolute;
         text-align: right;
         top: 85px;
-        right: 250px;
+        right: 220px;
         font-size: x-large;
         z-index: 3;
         color: white;
@@ -49,6 +49,7 @@
     
     .titleText h1, h3 {
         font-weight: 400;
+        letter-spacing: 0.1em;
     }
 }
 

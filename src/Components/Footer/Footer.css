@@ -1,7 +1,8 @@
 .footer {
-    height: 10vh;
+    height: 8vh;
     background-color: var(--header-font-color);
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 1px;
+    font-size: small;
 }

@@ -38,13 +38,13 @@ const Navbar = () => {
         <div className='navContainer'> {/* see header.css for mobile styling */}
             <div id='nav' className='navbar' style={navStyle} >
                 <ul className='otherNav'>
-                    {showBrand ? <a href="#home">Daniel Marsh</a> : null}
+                    {showBrand ? <a href="#home"><button>Daniel Marsh</button></a> : null}
                 </ul>
                 <ul className='pageNav'>
-                    <li><a href="">Resume</a></li>
-                    <li><a href="#aboutSection">About</a></li>
-                    <li><a href="#projectSection">Portfolio</a></li>
-                    <li><a href="#contactSection">Contact</a></li>
+                    <li><a href=""><button>Resume</button></a></li>
+                    <li><a href="#aboutSection"><button>About</button></a></li>
+                    <li><a href="#projectSection"><button>Portfolio</button></a></li>
+                    <li><a href="#contactSection"><button>Contact</button></a></li>
                 </ul>
             </div>
         </div>
