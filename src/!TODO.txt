@@ -15,9 +15,6 @@ NAV
 
 PROJECTS
 -img lifts off page w/shadow?
--responsiveness 
-    - projects in defined cards (off-white or cream background?)
-    - no images, just text
 
 SKILLS
 -icons
