@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
 import './Navbar.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
 
@@ -32,20 +34,19 @@ const Navbar = () => {
             setFontColor(fc1);
             setShowBrand(false);
         }
-    })
+    });
+
+    const [navOpen, setNavOpen] = useState(false);
 
     return (
-        <div className='navContainer'> {/* see header.css for mobile styling */}
-            <div id='nav' className='navbar' style={navStyle} >
-                <ul className='otherNav'>
-                    {showBrand ? <a href="#home"><button>Daniel Marsh</button></a> : null}
-                </ul>
-                <ul className='pageNav'>
-                    <li><a href=""><button>Resume</button></a></li>
-                    <li><a href="#aboutSection"><button>About</button></a></li>
-                    <li><a href="#projectSection"><button>Portfolio</button></a></li>
-                    <li><a href="#contactSection"><button>Contact</button></a></li>
-                </ul>
+        <div className='navbar' style={navStyle}>
+            <a className='navIcon' onClick={() => setNavOpen(!navOpen)}><FontAwesomeIcon icon={faBars} /></a>
+            <a href="#home" id='myBrand'>{showBrand ? 'Daniel Marsh' : null}</a>
+            <div className={`navLinks ${navOpen ? 'open' : 'closed'}`}>
+                <a href="#contactSection">Contact</a>
+                <a href="#projectSection">Portfolio</a>
+                <a href="#aboutSection">About</a>
+                <a href="">Resume</a>
             </div>
         </div>
     )
