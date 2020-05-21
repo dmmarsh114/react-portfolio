@@ -2,15 +2,10 @@
 
 insert copy
 add resume
-
 play around w/colors
-change header font
-
-adjust contact form responsiveness
 
 HEADER
 -text animation?
--change icons (same shape and size)
 
 NAV
 -responsiveness
@@ -19,7 +14,6 @@ NAV
 -add p5 gallery tab?
 
 PROJECTS
--img as link
 -img lifts off page w/shadow?
 -responsiveness 
     - projects in defined cards (off-white or cream background?)
@@ -29,7 +23,10 @@ SKILLS
 -icons
 -pick skills?
 
+--FontAwesome Links
 
+https://fontawesome.com/icons/file?style=solid
+https://github.com/FortAwesome/react-fontawesome#installation
 
 ~~PROJECTS TO ADD~~
 1. TrailTracker/Suprememes

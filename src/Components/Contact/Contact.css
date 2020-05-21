@@ -20,7 +20,8 @@
    margin: 0px;
 }
 
-@media only screen and (max-width: 600px) {
+/* Phone view */
+@media only screen and (max-width: 630px) {
     #nameInput {
         width: 400px;
     }
@@ -30,7 +31,8 @@
     }
 }
 
-@media only screen and (min-width: 601px) {
+/* Desktop view */
+@media only screen and (min-width: 600) {
     #nameInput {
         width: 300px;
     }

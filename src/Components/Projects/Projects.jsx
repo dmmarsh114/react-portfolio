@@ -42,7 +42,7 @@ const Projects = () => {
         return projects.map((project, index) => {
             return (
                 <div key={index} className='projectCard'>
-                    <div>
+                    <div style={{ height: '100%' }}>
                         <div className={index % 2 === 0 ? 'projectMedia right' : 'projectMedia left'}>
                             <a href={project.projectLink} target='blank'>
                                 <div className='projectPicLayer'>
