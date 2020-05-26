@@ -3,7 +3,7 @@ import React from 'react';
 import './About.css';
 import './Skills.css';
 
-import aboutText from './aboutText';
+import { Col, Row, Container } from 'reactstrap';
 
 import reactIcon from '../../Assets/Skill Icons/icons8-react-50.png';
 import tsIcon from '../../Assets/Skill Icons/icons8-typescript-50-3.png';
@@ -26,10 +26,10 @@ const About = () => {
         return skills.map((skill, index) => {
             return (
                 <li key={index}>
-                    <p className='skillName'>{skill.name} </p>
                     <img className='skillIcon' src={skill.icon} />
+                    <p className='skillName'>{skill.name} </p>
                 </li>
-            )
+            );
         });
     }
 
@@ -38,19 +38,24 @@ const About = () => {
             <div className='about'>
                 <h1 className='sectionHeader'>Introduction</h1>
                 <hr className='sectionHr' />
-                <div className='aboutText'>
-                    <p>Hello, I’m Daniel Marsh!</p>
-                    <p>I’m a full-stack web developer with experience working with React, Typescript, and SQL. I'm also exploring game development and generative art.</p>
-                    <p> I’m a fast learner and I’m eager to take on new challenges. What do you have for me?</p>
-                </div>
-            </div>
-            <br />
-            <div className='skills'>
-                <h1 className='sectionHeader'>Skills</h1>
-                <hr className='sectionHr' />
-                <ul>
-                    {mapSkills()}
-                </ul>
+                <Container>
+                    <Row>
+                        <Col>
+                            <div className='aboutText'>
+                                <p>Hello, I’m Daniel Marsh!</p>
+                                <p>I’m a full-stack web developer with experience working with React, Typescript, and SQL. I'm also exploring game development and generative art.</p>
+                                <p>I’m a fast learner and I’m eager to take on new challenges. What do you have for me?</p>
+                            </div>
+                        </Col>
+                        <Col>
+                            <div className='skills'>
+                                <ul>
+                                    {mapSkills()}
+                                </ul>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         </div>
     )

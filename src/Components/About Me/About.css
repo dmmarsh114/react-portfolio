@@ -9,5 +9,14 @@
 
 .aboutText {
     margin: 30px 50px auto 50px;
-    text-align: center;
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        margin: 0;
+    }
+    .aboutText {
+        text-align: center;
+    }
 }
