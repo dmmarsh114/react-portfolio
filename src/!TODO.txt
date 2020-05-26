@@ -8,9 +8,6 @@ HEADER
 -text animation?
 
 NAV
--responsiveness
-    - icons? 
-    - hamburger?
 -add p5 gallery tab?
 
 PROJECTS

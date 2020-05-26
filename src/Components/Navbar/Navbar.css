@@ -1,4 +1,102 @@
 .navbar {
+    position: fixed;  
+    width: 100%;
+    z-index: 5;
+}
+
+#myBrand {
+    float: left;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navbar a:hover {
+    color: white;
+    background-color: rgba(39, 39, 39, 0.432);
+}
+
+.navIcon {
+    display: none;
+}
+
+/* .navbar a:active {
+    highlight active link here
+} */
+
+@media screen and (max-width: 600px) {
+    .navbar a.navIcon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        position: fixed;
+        bottom: 0;
+        height: 50px;
+    }
+    .closed {
+        display: none;
+    }
+    .open {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        width: inherit;
+        float: right;
+        text-align: right;
+    }
+    .navLinks {
+        background-color: inherit;
+        z-index: 6;
+        right: -50px;
+        bottom: 198px;
+        width: auto;
+        border-radius: 15px 0 0 0;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navbar {
     height: 8vh;
     z-index: 5;
     position: fixed;
@@ -41,7 +139,7 @@
 }
 
 .navbar button:hover {
-    /* color: rgb(180,188,79); */
+    color: rgb(180,188,79);
     color: white;
     background-color: rgba(39, 39, 39, 0.432);
-}
+} */

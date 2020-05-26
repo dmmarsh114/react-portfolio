@@ -11,32 +11,34 @@ import phyllotaxisPic from '../../Assets/phyllotaxis.png';
 
 const Projects = () => {
 
-    const projects = [
-        {
-            title: 'TrailTracker',
-            date: 'March 2020',
-            desc: 'Users can post about trails that they have recently hiked, as well as filter through posts to find highly-rated trails near them.',
-            githubLink: 'https://github.com/dmmarsh114/trail-tracker-client',
-            projectLink: 'https://dmm-trailtracker-client.herokuapp.com/',
-            pic: trailTrackerPic,
-        },
-        {
-            title: 'Suprememes',
-            date: 'April 2020',
-            desc: 'A place to view memes. Users can sign in to comment on memes, as well as upload their own.',
-            githubLink: 'https://github.com/dmmarsh114/Red-Badge-Client',
-            projectLink: 'https://team6-red-badge-meme-client.herokuapp.com/',
-            pic: suprememesPic,
-        },
-        {
-            title: 'title',
-            date: 'date',
-            desc: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-            githubLink: '',
-            projectLink: '',
-            pic: phyllotaxisPic,
-        }
-    ];
+    let trailTracker = {
+        title: 'TrailTracker',
+        date: 'March 2020',
+        desc: 'Users can post about trails that they have recently hiked, as well as filter through posts to find highly-rated trails near them.',
+        githubLink: 'https://github.com/dmmarsh114/trail-tracker-client',
+        projectLink: 'https://dmm-trailtracker-client.herokuapp.com/',
+        pic: trailTrackerPic,
+    };
+
+    let suprememes = {
+        title: 'Suprememes',
+        date: 'April 2020',
+        desc: 'A place to view memes. Users can sign in to comment on memes, as well as upload their own.',
+        githubLink: 'https://github.com/dmmarsh114/Red-Badge-Client',
+        projectLink: 'https://team6-red-badge-meme-client.herokuapp.com/',
+        pic: suprememesPic,
+    };
+
+    let testProject = {
+        title: 'title',
+        date: 'date',
+        desc: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+        githubLink: '',
+        projectLink: '',
+        pic: phyllotaxisPic,
+    }
+
+    const projects = [suprememes, trailTracker, testProject];
 
     const displayProjects = () => {
         return projects.map((project, index) => {

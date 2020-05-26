@@ -29,6 +29,10 @@
     #emailInput {
         width: 400px;
     }
+
+    .contact {
+        margin-bottom: 0;
+    }
 }
 
 /* Desktop view */

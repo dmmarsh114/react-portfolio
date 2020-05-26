@@ -14,3 +14,31 @@
 .skills li {
     list-style-type: none;
 }
+
+.skillIcon {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 600px) {
+    .skills ul {
+        flex-flow: column wrap;
+        padding: 0 25px 0 25px;
+        margin-top: 0;
+    }
+    .skills li {
+        /* margin: 5px; */
+        /* width: 100%; */
+    }
+    .skills p {
+        display: inline;
+        margin: 5px;
+    }
+    .skillName {
+        float: left;
+    }
+    .skillIcon {
+        float: right;
+        font-size: 1em;
+        font-size: 50px;
+    }
+}
