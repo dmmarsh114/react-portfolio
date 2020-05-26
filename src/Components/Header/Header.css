@@ -9,7 +9,6 @@
     color: white;
     text-align: center;
     padding-top: 50%;
-    font-size: x-large;
 }
 
   .navContainer {
@@ -20,11 +19,6 @@
 /* DESKTOP VIEW */
 @media only screen and (min-width: 601px) {
     .header {
-        /* background: url('../../Assets/Haystack\ Mtn.jpg') center top; */
-
-        /* The following code was taken from this handy app: */
-        /* https://hero-generator.netlify.app */
-
         background: url('../../Assets/Haystack\ Mtn.jpg') no-repeat center fixed;
         
         box-shadow: 0 10px 15px rgba(48, 48, 48, 0.555);
@@ -40,8 +34,8 @@
     .titleText {
         position: absolute;
         text-align: right;
-        top: 85px;
-        right: 220px;
+        top: 125px;
+        right: 180px;
         font-size: x-large;
         z-index: 3;
         color: white;
@@ -56,7 +50,6 @@
 .header {
     background-size: cover;
     margin: 0;
-    /* color: var(--header-bg-color); */
     text-shadow: 2px 2px rgb(0,0,0,.30); 
     height: 100vh;
     font-family: var(--header-font);
