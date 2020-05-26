@@ -1,10 +1,21 @@
 import React, { useState } from 'react';
 
 import './Navbar.css';
+
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink
+} from 'reactstrap';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-const Navbar = () => {
+const Navigation = () => {
 
     // initial style
     let bc1 = 'transparent';
@@ -22,8 +33,6 @@ const Navbar = () => {
         color: fontColor
     }
 
-    const [showBrand, setShowBrand] = useState(false);
-
     window.addEventListener('scroll', () => {
         if (window.pageYOffset > 0) {
             setBackground(bc2);
@@ -36,20 +45,36 @@ const Navbar = () => {
         }
     });
 
-    const [navOpen, setNavOpen] = useState(false);
+    const [showBrand, setShowBrand] = useState(false);
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div className='position-fixed navbar' style={navStyle}>
-            <a className='navIcon d-lg-none d-md-none' onClick={() => setNavOpen(!navOpen)}><FontAwesomeIcon icon={faBars} /></a>
-            <a href="#home" id='myBrand'>{showBrand ? 'Daniel Marsh' : null}</a>
-            <div className={`navLinks ${navOpen ? 'open' : 'closed'}`}>
-                <a href="#contactSection">Contact</a>
-                <a href="#projectSection">Portfolio</a>
-                <a href="#aboutSection">About</a>
-                <a href="">Resume</a>
-            </div>
+        <div>
+            <Navbar style={navStyle} dark expand="md" className='position-fixed myNavbar'>
+                {showBrand ? <NavbarBrand href="#home">Daniel Marsh</NavbarBrand> : null}
+                <NavbarToggler onClick={toggle} className='ml-auto' />
+                <Collapse isOpen={isOpen} navbar>
+                    <Nav className="ml-auto" navbar>
+                        <NavItem>
+                            <NavLink href="">Resume</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#aboutSection">About</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#projectSection">Portfolio</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#contactSection">Contact</NavLink>
+                        </NavItem>
+                    </Nav>
+                </Collapse>
+            </Navbar>
         </div>
-    )
+    );
 }
 
-export default Navbar;
+export default Navigation;
