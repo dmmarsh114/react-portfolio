@@ -69,7 +69,7 @@ const Projects = () => {
     }
 
     return (
-        <div id='projectSection'>
+        <div id='projectSection' className='projectTotal'>
             <div className='projects'>
                 <h1 className='sectionHeader'>Projects</h1>
                 <hr className='sectionHr' />

@@ -1,13 +1,15 @@
 .skills {
     margin: 20px;
+    margin-bottom: 50px;
     text-align: center;
-    width: 60%;
+    width: 100%;
 }
 
 .skills ul {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    padding-top: 15px;
 }
 
 .skills li {
