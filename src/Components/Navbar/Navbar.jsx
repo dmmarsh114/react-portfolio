@@ -39,8 +39,8 @@ const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
 
     return (
-        <div className='navbar' style={navStyle}>
-            <a className='navIcon' onClick={() => setNavOpen(!navOpen)}><FontAwesomeIcon icon={faBars} /></a>
+        <div className='position-fixed navbar' style={navStyle}>
+            <a className='navIcon d-lg-none d-md-none' onClick={() => setNavOpen(!navOpen)}><FontAwesomeIcon icon={faBars} /></a>
             <a href="#home" id='myBrand'>{showBrand ? 'Daniel Marsh' : null}</a>
             <div className={`navLinks ${navOpen ? 'open' : 'closed'}`}>
                 <a href="#contactSection">Contact</a>
