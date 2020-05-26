@@ -5,10 +5,6 @@ import './Skills.css';
 
 import aboutText from './aboutText';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons';
-
 import reactIcon from '../../Assets/Skill Icons/icons8-react-50.png';
 import tsIcon from '../../Assets/Skill Icons/icons8-typescript-50-3.png';
 import cSharpIcon from '../../Assets/Skill Icons/icons8-c-sharp-logo-50.png';
@@ -19,26 +15,11 @@ import sqlIcon from '../../Assets/Skill Icons/icons8-database-50.png';
 const About = () => {
 
     const skills = [
-        {
-            name: 'React',
-            icon: reactIcon
-        },
-        {
-            name: 'TypeScript',
-            icon: tsIcon
-        },
-        {
-            name: 'C#',
-            icon: cSharpIcon
-        },
-        {
-            name: 'Node.js',
-            icon: nodeIcon
-        },
-        {
-            name: 'SQL',
-            icon: sqlIcon
-        }
+        { name: 'React', icon: reactIcon },
+        { name: 'TypeScript', icon: tsIcon },
+        { name: 'C#', icon: cSharpIcon },
+        { name: 'Node.js', icon: nodeIcon },
+        { name: 'SQL', icon: sqlIcon }
     ];
 
     const mapSkills = () => {
@@ -58,7 +39,9 @@ const About = () => {
                 <h1 className='sectionHeader'>Introduction</h1>
                 <hr className='sectionHr' />
                 <div className='aboutText'>
-                    {aboutText}
+                    <p>Hello, I’m Daniel Marsh!</p>
+                    <p>I’m a full-stack web developer with experience working with React, Typescript, and SQL. I'm also exploring game development and generative art.</p>
+                    <p> I’m a fast learner and I’m eager to take on new challenges. What do you have for me?</p>
                 </div>
             </div>
             <br />

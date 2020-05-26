@@ -8,5 +8,6 @@
 }
 
 .aboutText {
-    margin-top: 30px;
+    margin: 30px 50px auto 50px;
+    text-align: center;
 }
