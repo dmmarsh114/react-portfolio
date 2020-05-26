@@ -22,13 +22,14 @@ body {
   color: var(--header-font-color);
   font-family: var(--header-font);
   text-align: center;
+  font-size: 2em;
 }
 
 .sectionHr {
   width: 60%;
   margin: 20px auto 30px auto;
   border-color: var(--header-font-color);
-  border-width: thin;
+  border-width: medium;
 }
 
 :root {
