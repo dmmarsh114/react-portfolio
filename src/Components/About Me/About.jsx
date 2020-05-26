@@ -5,32 +5,39 @@ import './Skills.css';
 
 import aboutText from './aboutText';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import { faDatabase } from '@fortawesome/free-solid-svg-icons';
+
+import reactIcon from '../../Assets/Skill Icons/icons8-react-50.png';
+import tsIcon from '../../Assets/Skill Icons/icons8-typescript-50-3.png';
+import cSharpIcon from '../../Assets/Skill Icons/icons8-c-sharp-logo-50.png';
+import nodeIcon from '../../Assets/Skill Icons/icons8-node-js-50.png';
+import sqlIcon from '../../Assets/Skill Icons/icons8-database-50.png';
+
+
 const About = () => {
 
     const skills = [
         {
             name: 'React',
-            icon: 'hi'
+            icon: reactIcon
         },
         {
             name: 'TypeScript',
-            icon: 'hi'
+            icon: tsIcon
         },
         {
             name: 'C#',
-            icon: 'hi'
+            icon: cSharpIcon
         },
         {
             name: 'Node.js',
-            icon: 'hi'
-        },
-        {
-            name: 'Express',
-            icon: 'hi'
+            icon: nodeIcon
         },
         {
             name: 'SQL',
-            icon: 'hi'
+            icon: sqlIcon
         }
     ];
 
@@ -39,7 +46,7 @@ const About = () => {
             return (
                 <li key={index}>
                     <p className='skillName'>{skill.name} </p>
-                    <p className='skillIcon'>{skill.icon}</p>
+                    <img className='skillIcon' src={skill.icon} />
                 </li>
             )
         });
