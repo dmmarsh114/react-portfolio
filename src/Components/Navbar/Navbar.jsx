@@ -21,7 +21,7 @@ const Navigation = () => {
     let bc1 = 'transparent';
     let fc1 = 'inherit';
 
-    // scroll style 
+    // style on scroll
     let bc2 = 'var(--header-font-color)';
     let fc2 = 'white';
 
@@ -33,6 +33,7 @@ const Navigation = () => {
         color: fontColor
     }
 
+    // change the background and font color when the user scrolls down
     window.addEventListener('scroll', () => {
         if (window.pageYOffset > 0) {
             setBackground(bc2);
@@ -45,10 +46,9 @@ const Navigation = () => {
         }
     });
 
+    // Navbar toggles
     const [showBrand, setShowBrand] = useState(false);
-
     const [isOpen, setIsOpen] = useState(false);
-
     const toggle = () => setIsOpen(!isOpen);
 
     return (
@@ -56,7 +56,7 @@ const Navigation = () => {
             <Navbar style={navStyle} dark expand="md" className='position-fixed myNavbar'>
                 {showBrand ? <NavbarBrand href="#home">Daniel Marsh</NavbarBrand> : null}
                 <NavbarToggler onClick={toggle} className='ml-auto' />
-                <Collapse isOpen={isOpen} navbar>
+                <Collapse isOpen={isOpen} navbar> {/* Content below will collapse/expand on mobile */}
                     <Nav className="ml-auto" navbar>
                         <NavItem>
                             <NavLink href="">Resume</NavLink>

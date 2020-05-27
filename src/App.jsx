@@ -20,7 +20,7 @@ function App() {
       <Header gitHub={githubLink} linkedIn={linkedInLink} /> {/*ADD RESUME*/}
       <About />
       <Projects />
-      <Contact github={githubLink} linkedIn={linkedInLink} /> {/*ADD RESUME*/}
+      <Contact gitHub={githubLink} linkedIn={linkedInLink} /> {/*ADD RESUME*/}
       <Footer />
     </div>
   );

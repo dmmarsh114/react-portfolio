@@ -1,21 +1,10 @@
 ~~TODO~~
 
-insert copy
 add resume
+add comments
+add links in About
+
 play around w/colors
-
-HEADER
--text animation?
-
-NAV
--add p5 gallery tab?
-
-PROJECTS
--img lifts off page w/shadow?
-
-SKILLS
--icons
--pick skills?
 
 --FontAwesome Links
 

@@ -1,6 +1,6 @@
 .contact {
     height: 100vh;
-    padding-top: 30px;
+    padding-top: 60px;
     margin-bottom: 50px;
 }
 
@@ -51,6 +51,7 @@
 }
 
 #sendButton {
+    margin-top: 15px;
     border: thin solid var(--header-font-color);
     border-radius: 15px;
     background-color: var(--header-font-color);

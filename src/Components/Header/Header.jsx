@@ -17,7 +17,7 @@ const Header = (props) => {
                 <h1 style={{ marginBottom: '5px', fontSize: '2.5em' }}>Daniel Marsh</h1>
                 <h3 style={{ marginTop: '0px', marginBottom: '50px' }}>Web Developer</h3>
                 <Tooltip title='View my Github profile!' arrow>
-                    <a id='link' href={props.linkedIn} target='blank'><FontAwesomeIcon icon={faGithubSquare} /></a>
+                    <a id='link' href={props.gitHub} target='blank'><FontAwesomeIcon icon={faGithubSquare} /></a>
                 </Tooltip>
                 <Tooltip title='Contact me on LinkedIn!' arrow placement='top'>
                     <a id='link' href={props.linkedIn} target='blank'><FontAwesomeIcon icon={faLinkedin} /></a>

@@ -17,7 +17,7 @@ const Contact = (props) => {
             <hr className='sectionHr' id='contactHr' />
             <div className='contactLinkContainer'>
                 <Tooltip title='View my Github profile!' arrow>
-                    <a className='contactLink' href={props.linkedIn} target='blank'><FontAwesomeIcon icon={faGithubSquare} /></a>
+                    <a className='contactLink' href={props.gitHub} target='blank'><FontAwesomeIcon icon={faGithubSquare} /></a>
                 </Tooltip>
                 <Tooltip title='Contact me on LinkedIn!' arrow placement='top'>
                     <a className='contactLink' href={props.linkedIn} target='blank'><FontAwesomeIcon icon={faLinkedin} /></a>
@@ -28,7 +28,6 @@ const Contact = (props) => {
             </div>
 
             <form action="https://formspree.io/dmmarsh114@gmail.com" method="POST">
-
                 <div className='contactForm'>
                     <div className='contactStack'>
                         <TextField id="nameInput" margin='normal' label="Name" variant="outlined" />

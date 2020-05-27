@@ -20,8 +20,10 @@
 @media screen and (max-width: 600px) {
     .skills {
         width: 75%;
+        align-items: center;
     }
     .skills li {
         margin: inherit;
+        padding: 0 5px 0 5px;
     }
 }

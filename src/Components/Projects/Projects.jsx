@@ -11,6 +11,8 @@ import phyllotaxisPic from '../../Assets/phyllotaxis.png';
 
 const Projects = () => {
 
+    // define each project: 
+
     let trailTracker = {
         title: 'TrailTracker',
         date: 'March 2020',
@@ -38,6 +40,7 @@ const Projects = () => {
         pic: phyllotaxisPic,
     }
 
+    // change the order of project cards here: 
     const projects = [suprememes, trailTracker, testProject];
 
     const displayProjects = () => {
@@ -45,14 +48,17 @@ const Projects = () => {
             return (
                 <div key={index} className='projectCard'>
                     <div style={{ height: '100%' }}>
+                        {/* Alternate the side on which project screenshot is displayed: */}
                         <div className={index % 2 === 0 ? 'projectMedia right' : 'projectMedia left'}>
                             <a href={project.projectLink} target='blank'>
-                                <div className='projectPicLayer'>
+                                <div className='projectPicLayer'> {/* hover fx */}
                                     <p>Try it out!</p>
                                 </div>
                             </a>
                             <img src={project.pic} alt="project screenshot" />
                         </div>
+
+                        {/* Alternate the side on which project content is displayed: */}
                         <div className={index % 2 === 0 ? 'projectDesc left' : 'projectDesc right'}>
                             <h3 className='projectTitle'>{project.title}</h3>
                             <h5 className='projectTitle'>{project.date}</h5>
