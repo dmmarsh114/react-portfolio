@@ -12,8 +12,7 @@ import {
     NavLink
 } from 'reactstrap';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import resume from '../../Assets/Daniel-Marsh-Resume.pdf';
 
 const Navigation = () => {
 
@@ -59,7 +58,7 @@ const Navigation = () => {
                 <Collapse isOpen={isOpen} navbar> {/* Content below will collapse/expand on mobile */}
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="">Resume</NavLink>
+                            <NavLink href={resume} download>Resume</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="#aboutSection">About</NavLink>
