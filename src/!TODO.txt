@@ -1,8 +1,6 @@
 ~~TODO~~
 
-add resume
-add comments
-add links in About
+add game/art links in About
 
 play around w/colors
 

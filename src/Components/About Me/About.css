@@ -12,6 +12,10 @@
     margin-bottom: 50px;
 }
 
+.aboutLink {
+    /* color: var(--header-font-color); */
+}
+
 @media screen and (max-width: 600px) {
     .about {
         margin: 0;

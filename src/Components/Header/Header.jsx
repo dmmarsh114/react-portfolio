@@ -8,6 +8,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 
+import resume from '../../Assets/Daniel-Marsh-Resume.pdf';
+
 const Header = (props) => {
 
     return (
@@ -23,7 +25,7 @@ const Header = (props) => {
                     <a id='link' href={props.linkedIn} target='blank'><FontAwesomeIcon icon={faLinkedin} /></a>
                 </Tooltip>
                 <Tooltip title='Download my resume!' arrow>
-                    <a id='link' href=''><FontAwesomeIcon icon={faFile} size='sm' style={{ paddingBottom: '2px' }} /></a>
+                    <a id='link' href={resume} download><FontAwesomeIcon icon={faFile} size='sm' style={{ paddingBottom: '2px' }} /></a>
                 </Tooltip>
             </div>
         </div >

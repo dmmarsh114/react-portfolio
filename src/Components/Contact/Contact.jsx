@@ -9,6 +9,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 
+import resume from '../../Assets/Daniel-Marsh-Resume.pdf';
+
 const Contact = (props) => {
 
     return (
@@ -23,7 +25,7 @@ const Contact = (props) => {
                     <a className='contactLink' href={props.linkedIn} target='blank'><FontAwesomeIcon icon={faLinkedin} /></a>
                 </Tooltip>
                 <Tooltip title='Download my resume!' arrow>
-                    <a className='contactLink' href=''><FontAwesomeIcon icon={faFile} size='sm' style={{ paddingBottom: '2px' }} /></a>
+                    <a className='contactLink' href={resume} download><FontAwesomeIcon icon={faFile} size='sm' style={{ paddingBottom: '2px' }} /></a>
                 </Tooltip>
             </div>
 
