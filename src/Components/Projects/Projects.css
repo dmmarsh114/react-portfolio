@@ -6,7 +6,6 @@
     width: 80vw;
     max-width: 1000px;
     height: 200px;
-    background-color: rgb(211, 211, 221);
     margin: 0 auto 50px auto;
     border-radius: 15px;
     display: flex;
@@ -116,6 +115,7 @@
         padding: 5px;
         justify-content: center;
         margin-bottom: 30px;
+        background-color: rgb(211, 211, 221);
     }
     
     .projectDesc {

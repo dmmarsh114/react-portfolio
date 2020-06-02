@@ -4,44 +4,43 @@ import './Projects.css';
 import Tooltip from '@material-ui/core/Tooltip';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
-import testPic from '../../Assets/whiteRiver.jpg';
-import trailTrackerPic from '../../Assets/trailTracker.png';
+import solarSystemModelPic from '../../Assets/spaceVisualizerPic.png';
 import suprememesPic from '../../Assets/suprememes.png';
-import phyllotaxisPic from '../../Assets/phyllotaxis.png';
+import distortionTilesPic from '../../Assets/distortion.png'
 
 const Projects = () => {
 
     // define each project: 
 
-    let trailTracker = {
-        title: 'TrailTracker',
-        date: 'March 2020',
-        desc: 'Users can post about trails that they have recently hiked, as well as filter through posts to find highly-rated trails near them.',
-        githubLink: 'https://github.com/dmmarsh114/trail-tracker-client',
-        projectLink: 'https://dmm-trailtracker-client.herokuapp.com/',
-        pic: trailTrackerPic,
+    let solarSystemModel = {
+        title: 'Space Visualizer',
+        date: 'May 2020',
+        desc: 'Users can learn about the planets and moons with this animated, interactive model of the solar system.',
+        githubLink: 'https://github.com/dmmarsh114/Space-Visualizer',
+        projectLink: 'https://solarsystemvisualizer-75b91.firebaseapp.com/',
+        pic: solarSystemModelPic,
     };
 
     let suprememes = {
         title: 'Suprememes',
         date: 'April 2020',
-        desc: 'A place to view memes. Users can sign in to comment on memes, as well as upload their own.',
+        desc: 'A place to view those funny internet pictures. Users can sign in to comment on memes, as well as upload their own.',
         githubLink: 'https://github.com/dmmarsh114/Red-Badge-Client',
         projectLink: 'https://team6-red-badge-meme-client.herokuapp.com/',
         pic: suprememesPic,
     };
 
     let testProject = {
-        title: 'title',
-        date: 'date',
-        desc: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-        githubLink: '',
+        title: 'Gallery',
+        date: 'Ongoing',
+        desc: 'I use this page to show off some of the art I have made with code!',
+        githubLink: 'https://github.com/dmmarsh114/generative-gallery',
         projectLink: '',
-        pic: phyllotaxisPic,
+        pic: distortionTilesPic,
     }
 
     // change the order of project cards here: 
-    const projects = [suprememes, trailTracker, testProject];
+    const projects = [suprememes, solarSystemModel, testProject];
 
     const displayProjects = () => {
         return projects.map((project, index) => {
