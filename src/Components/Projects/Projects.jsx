@@ -30,17 +30,17 @@ const Projects = () => {
         pic: suprememesPic,
     };
 
-    let testProject = {
+    let gallery = {
         title: 'Gallery',
         date: 'Ongoing',
         desc: 'I use this page to show off some of the art I have made with code!',
         githubLink: 'https://github.com/dmmarsh114/generative-gallery',
-        projectLink: '',
+        projectLink: 'https://dmmarsh114.github.io/generative-gallery/',
         pic: distortionTilesPic,
     }
 
     // change the order of project cards here: 
-    const projects = [suprememes, solarSystemModel, testProject];
+    const projects = [suprememes, solarSystemModel, gallery];
 
     const displayProjects = () => {
         return projects.map((project, index) => {
