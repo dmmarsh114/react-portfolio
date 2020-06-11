@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e95a7378a6c2b382f1a9dd0a84de965b",
+    "revision": "b5dd35730fe5858e413400c9b818b178",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "80be348a87f79f807714",
+    "revision": "8a066317216f0de3b019",
     "url": "/portfolio/static/css/main.fcb04481.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.291053dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80be348a87f79f807714",
-    "url": "/portfolio/static/js/main.67976da2.chunk.js"
+    "revision": "8a066317216f0de3b019",
+    "url": "/portfolio/static/js/main.3e789756.chunk.js"
   },
   {
     "revision": "9a67a413ad95425131de",
     "url": "/portfolio/static/js/runtime-main.3dd4bd1f.js"
   },
   {
-    "revision": "9c76c689da3648d253bcf640a1b099d0",
-    "url": "/portfolio/static/media/Daniel-Marsh-Resume.9c76c689.pdf"
+    "revision": "f4cf45e18eaadf5600db47d765be6bc1",
+    "url": "/portfolio/static/media/Daniel-Marsh-Resume.f4cf45e1.pdf"
   },
   {
     "revision": "53627ae14f03d6dbc96cd5e934d80575",
