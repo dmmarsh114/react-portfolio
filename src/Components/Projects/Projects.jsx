@@ -32,8 +32,8 @@ const Projects = () => {
 
     let gallery = {
         title: 'Gallery',
-        date: 'Ongoing',
-        desc: 'I use this page to show off some of the art I have made with code!',
+        date: '(Ongoing)',
+        desc: 'I use this page to show off some of the art I have made with code! (not yet mobile-friendly)',
         githubLink: 'https://github.com/dmmarsh114/generative-gallery',
         projectLink: 'https://dmmarsh114.github.io/generative-gallery/',
         pic: distortionTilesPic,

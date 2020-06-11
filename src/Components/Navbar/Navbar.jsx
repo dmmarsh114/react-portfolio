@@ -64,7 +64,7 @@ const Navigation = () => {
                             <NavLink href="#aboutSection">About</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#projectSection">Portfolio</NavLink>
+                            <NavLink href="#projectSection">Projects</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="#contactSection">Contact</NavLink>

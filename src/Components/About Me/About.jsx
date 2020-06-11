@@ -44,7 +44,7 @@ const About = () => {
                             <div className='aboutText'>
                                 <p>Hello, I’m Daniel Marsh!</p>
                                 <p>I’m a full-stack web developer who recently graduated from <a href='https://elevenfifty.org/about/' target='blank' className='aboutLink'>the Eleven Fifty Academy.</a> When I’m not making web apps, I’m exploring game development and generative art.</p>
-                                <p>I’m a fast learner and I’m eager to take on new challenges. What do you have for me?</p>
+                                <p>I'm currently taking SalesForce’s self-guided Pathfinder program to further my technical and career skills. I am a fast learner with a passion for solving puzzles, learning new skills, and working collaboratively. I am currently seeking a full-time position in web-development.</p>
                             </div>
                         </Col>
                         <Col>
