@@ -18,7 +18,7 @@ const Navigation = () => {
 
     // initial style
     let bc1 = 'transparent';
-    let fc1 = 'inherit';
+    let fc1 = 'white';
 
     // style on scroll
     let bc2 = 'var(--header-font-color)';
