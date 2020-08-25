@@ -19,6 +19,7 @@
     color: var(--header-font-color);
     text-align: center !important;
     font-weight: 500;
+    letter-spacing: 0;
 }
 
 .right {

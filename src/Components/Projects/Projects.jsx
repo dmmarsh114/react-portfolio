@@ -5,7 +5,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 import solarSystemModelPic from '../../Assets/spaceVisualizerPic.png';
-import suprememesPic from '../../Assets/suprememes.png';
+import bitsySitePic from '../../Assets/bitsySitePic2.png';
 import distortionTilesPic from '../../Assets/distortion.png'
 
 const Projects = () => {
@@ -21,13 +21,13 @@ const Projects = () => {
         pic: solarSystemModelPic,
     };
 
-    let suprememes = {
-        title: 'Suprememes',
-        date: 'April 2020',
-        desc: 'A place to view those funny internet pictures. Users can sign in to comment on memes, as well as upload their own.',
-        githubLink: 'https://github.com/dmmarsh114/Red-Badge-Client',
-        projectLink: 'https://team6-red-badge-meme-client.herokuapp.com/',
-        pic: suprememesPic,
+    let bitsySite = {
+        title: 'The Comic Misadventures of Bitsy',
+        date: 'July 2020',
+        desc: 'A website showcasing the humorous works of John Marsh.',
+        githubLink: 'https://github.com/dmmarsh114/john-marsh-portfolio',
+        projectLink: 'https://johnmarsh1.com/',
+        pic: bitsySitePic,
     };
 
     let gallery = {
@@ -40,7 +40,7 @@ const Projects = () => {
     }
 
     // change the order of project cards here: 
-    const projects = [suprememes, solarSystemModel, gallery];
+    const projects = [bitsySite, solarSystemModel, gallery];
 
     const displayProjects = () => {
         return projects.map((project, index) => {
