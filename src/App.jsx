@@ -10,7 +10,7 @@ import Footer from './Components/Footer/Footer';
 import Projects from './Components/Projects/Projects';
 
 const githubLink = 'https://github.com/dmmarsh114';
-const linkedInLink = 'https://www.linkedin.com/in/daniel-marsh-843aa5b7';
+const linkedInLink = 'https://www.linkedin.com/in/dmmarsh114/';
 
 function App() {
 
@@ -18,8 +18,8 @@ function App() {
     <div>
       <Navbar />
       <Header gitHub={githubLink} linkedIn={linkedInLink} />
-      <About />
       <Projects />
+      <About />
       <Contact gitHub={githubLink} linkedIn={linkedInLink} />
       <Footer />
     </div>
