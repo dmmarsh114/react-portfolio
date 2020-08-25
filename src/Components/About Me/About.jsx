@@ -43,8 +43,7 @@ const About = () => {
                         <Col>
                             <div className='aboutText'>
                                 <p>Hello, I’m Daniel Marsh!</p>
-                                <p>I’m a full-stack web developer who recently graduated from <a href='https://elevenfifty.org/about/' target='blank' className='aboutLink'>the Eleven Fifty Academy.</a> When I’m not making web apps, I’m exploring game development and generative art.</p>
-                                <p>I'm currently taking SalesForce’s self-guided Pathfinder program to further my technical and career skills. I am a fast learner with a passion for solving puzzles, learning new skills, and working collaboratively. I am currently seeking a full-time position in web-development.</p>
+                                <p>I am a full-stack developer who has been training nearly full-time since January. I have completed a Web Development course at <a href='https://elevenfifty.org/about/' target='blank' className='aboutLink'>the Eleven Fifty Academy</a>, as well as Salesforce’s Pathfinder program. I am currently taking a Software Development course at Eleven Fifty.</p>
                             </div>
                         </Col>
                         <Col>
