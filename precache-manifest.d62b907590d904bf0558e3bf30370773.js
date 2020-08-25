@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac992e35970a7b4160d59474cb0feec9",
+    "revision": "b72c135fa2816f609d1353c6aeea3f57",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "f8f17d8085e5d96e1098",
-    "url": "/portfolio/static/css/main.7f9b37d4.chunk.css"
+    "revision": "181b4e533cd62d71a087",
+    "url": "/portfolio/static/css/main.6083ada1.chunk.css"
   },
   {
     "revision": "0a92be8b54a9ca9d3ce5",
@@ -20,20 +20,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.291053dc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f8f17d8085e5d96e1098",
-    "url": "/portfolio/static/js/main.05083b1c.chunk.js"
+    "revision": "181b4e533cd62d71a087",
+    "url": "/portfolio/static/js/main.cf7ee095.chunk.js"
   },
   {
     "revision": "9a67a413ad95425131de",
     "url": "/portfolio/static/js/runtime-main.3dd4bd1f.js"
   },
   {
-    "revision": "f4cf45e18eaadf5600db47d765be6bc1",
-    "url": "/portfolio/static/media/Daniel-Marsh-Resume.f4cf45e1.pdf"
+    "revision": "a40dc2c38e9bbbc58d74afdcb3eaa0f8",
+    "url": "/portfolio/static/media/Daniel-Marsh-Resume.a40dc2c3.pdf"
   },
   {
     "revision": "53627ae14f03d6dbc96cd5e934d80575",
     "url": "/portfolio/static/media/Haystack Mtn.53627ae1.jpg"
+  },
+  {
+    "revision": "955831af0570aec72a09527cee4b9a93",
+    "url": "/portfolio/static/media/bitsySitePic2.955831af.png"
   },
   {
     "revision": "500051bb23969ccccca26a2918157c40",
@@ -42,9 +46,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "912a0903f49423953202c6cbf9bbe7af",
     "url": "/portfolio/static/media/spaceVisualizerPic.912a0903.png"
-  },
-  {
-    "revision": "167e2e8fceb6663a5aba5ed19cc796ea",
-    "url": "/portfolio/static/media/suprememes.167e2e8f.png"
   }
 ]);

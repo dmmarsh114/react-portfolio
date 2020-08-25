@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7f9b37d4.chunk.css",
-    "main.js": "/portfolio/static/js/main.05083b1c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.05083b1c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.6083ada1.chunk.css",
+    "main.js": "/portfolio/static/js/main.cf7ee095.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cf7ee095.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3dd4bd1f.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3dd4bd1f.js.map",
     "static/css/2.de424728.chunk.css": "/portfolio/static/css/2.de424728.chunk.css",
     "static/js/2.291053dc.chunk.js": "/portfolio/static/js/2.291053dc.chunk.js",
     "static/js/2.291053dc.chunk.js.map": "/portfolio/static/js/2.291053dc.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.d19ced51f2edd3566e156b294d134704.js": "/portfolio/precache-manifest.d19ced51f2edd3566e156b294d134704.js",
+    "precache-manifest.d62b907590d904bf0558e3bf30370773.js": "/portfolio/precache-manifest.d62b907590d904bf0558e3bf30370773.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/portfolio/static/css/2.de424728.chunk.css.map",
-    "static/css/main.7f9b37d4.chunk.css.map": "/portfolio/static/css/main.7f9b37d4.chunk.css.map",
+    "static/css/main.6083ada1.chunk.css.map": "/portfolio/static/css/main.6083ada1.chunk.css.map",
     "static/js/2.291053dc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.291053dc.chunk.js.LICENSE.txt",
-    "static/media/Daniel-Marsh-Resume.pdf": "/portfolio/static/media/Daniel-Marsh-Resume.f4cf45e1.pdf",
+    "static/media/Daniel-Marsh-Resume.pdf": "/portfolio/static/media/Daniel-Marsh-Resume.a40dc2c3.pdf",
     "static/media/Header.css": "/portfolio/static/media/Haystack Mtn.53627ae1.jpg",
+    "static/media/bitsySitePic2.png": "/portfolio/static/media/bitsySitePic2.955831af.png",
     "static/media/distortion.png": "/portfolio/static/media/distortion.500051bb.png",
-    "static/media/spaceVisualizerPic.png": "/portfolio/static/media/spaceVisualizerPic.912a0903.png",
-    "static/media/suprememes.png": "/portfolio/static/media/suprememes.167e2e8f.png"
+    "static/media/spaceVisualizerPic.png": "/portfolio/static/media/spaceVisualizerPic.912a0903.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3dd4bd1f.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.291053dc.chunk.js",
-    "static/css/main.7f9b37d4.chunk.css",
-    "static/js/main.05083b1c.chunk.js"
+    "static/css/main.6083ada1.chunk.css",
+    "static/js/main.cf7ee095.chunk.js"
   ]
 }
