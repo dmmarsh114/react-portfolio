@@ -13,9 +13,8 @@ body {
     /* background-color: rgb(103, 76, 45); */
     /* background-color: rgb(102,45,68); */
 
-        background: linear-gradient(white, whitesmoke);     
-        font-family: var(--body-font);
-
+  background: linear-gradient(90deg, var(--bg-color) 0%,white 50%, var(--bg-color) 95%, var(--bg-color) 100%);
+  font-family: var(--body-font);
 }
 
 .sectionHeader {
@@ -34,6 +33,7 @@ body {
 
 :root {
   --header-font-color: rgb(45,68,102);
+  --bg-color: rgb(251, 254, 255);
   --header-font: 'Kalam', cursive;
   --body-font: 'Open Sans', sans-serif;
 }
