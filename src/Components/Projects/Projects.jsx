@@ -6,7 +6,12 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 import solarSystemModelPic from '../../Assets/spaceVisualizerPic.png';
 import bitsySitePic from '../../Assets/bitsySitePic2.png';
-import distortionTilesPic from '../../Assets/distortion.png'
+import distortionTilesPic from '../../Assets/distortion.png';
+
+import ticketApprenticePic from '../../Assets/ticketApprentice.png';
+import pirateEmporiumPic from '../../Assets/SD Static Store Front.png';
+import sdGoldBadgePic from '../../Assets/SD Gold Badge Challenges.png';
+import cssCreaturePic from '../../Assets/SD CSS Creature.png';
 
 const Projects = () => {
 
@@ -39,8 +44,44 @@ const Projects = () => {
         pic: distortionTilesPic,
     }
 
+    let ticketApprentice = {
+        title: 'TicketApprentice',
+        date: 'November 2020',
+        desc: 'An API that users can use to view, manage, and buy tickets to events at a variety of venues.',
+        githubLink: 'https://github.com/Brian-Winter/TicketApprentice',
+        projectLink: 'https://github.com/Brian-Winter/TicketApprentice',
+        pic: ticketApprenticePic,
+    }
+
+    let pirateEmporium = {
+        title: 'Pirate Emporium',
+        date: 'September 2020',
+        desc: 'A static storefront built to showcase my incredible HTML/CSS skills.',
+        githubLink: 'https://github.com/dmmarsh114/Static-Store-Front',
+        projectLink: 'https://dmmarsh114.github.io/Static-Store-Front/',
+        pic: pirateEmporiumPic,
+    }
+
+    let sdGoldBadge = {
+        title: 'Gold Badge Challenges',
+        date: 'October 2020',
+        desc: 'A suite of simple (but fun!) console apps for handling rudimentary business logic.',
+        githubLink: 'https://github.com/dmmarsh114/SD-Gold-Badge-Challenges',
+        projectLink: 'https://github.com/dmmarsh114/SD-Gold-Badge-Challenges',
+        pic: sdGoldBadgePic,
+    }
+
+    let cssCreature = {
+        title: 'CSS Creature',
+        date: 'September 2020',
+        desc: 'A simple little cartoon made only with HTML and CSS. Made in Codepen.',
+        githubLink: 'https://codepen.io/dmmarsh4/pen/gOrPQeJ',
+        projectLink: 'https://codepen.io/dmmarsh4/pen/gOrPQeJ',
+        pic: cssCreaturePic,
+    }
+
     // change the order of project cards here: 
-    const projects = [bitsySite, solarSystemModel, gallery];
+    const projects = [ticketApprentice, pirateEmporium, sdGoldBadge, cssCreature];
 
     const displayProjects = () => {
         return projects.map((project, index) => {

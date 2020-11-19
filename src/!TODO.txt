@@ -1,5 +1,9 @@
 ~~TODO~~
 
+IMPORTANT: After significant changes, run the following commands:
+       1. npm run build
+       2. npm run deploy
+
 add game/art links in About
 
 play around w/colors
