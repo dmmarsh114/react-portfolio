@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b72c135fa2816f609d1353c6aeea3f57",
+    "revision": "2b44fffc0d1775996016557665ecee24",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "0a92be8b54a9ca9d3ce5",
+    "revision": "d44fbc78468f51978f40",
     "url": "/portfolio/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "181b4e533cd62d71a087",
+    "revision": "5fffdda91a221102e015",
     "url": "/portfolio/static/css/main.6083ada1.chunk.css"
   },
   {
-    "revision": "0a92be8b54a9ca9d3ce5",
-    "url": "/portfolio/static/js/2.291053dc.chunk.js"
+    "revision": "d44fbc78468f51978f40",
+    "url": "/portfolio/static/js/2.f6044683.chunk.js"
   },
   {
     "revision": "d09ac505fec0e9130a1d5b85fb3fa6dc",
-    "url": "/portfolio/static/js/2.291053dc.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.f6044683.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "181b4e533cd62d71a087",
-    "url": "/portfolio/static/js/main.cf7ee095.chunk.js"
+    "revision": "5fffdda91a221102e015",
+    "url": "/portfolio/static/js/main.06d102e1.chunk.js"
   },
   {
     "revision": "9a67a413ad95425131de",
@@ -36,6 +36,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Haystack Mtn.53627ae1.jpg"
   },
   {
+    "revision": "78ee7c2959667799ba688762c19de2d6",
+    "url": "/portfolio/static/media/SD CSS Creature.78ee7c29.png"
+  },
+  {
+    "revision": "462c9b40969391a3df88c3fd2869506d",
+    "url": "/portfolio/static/media/SD Gold Badge Challenges.462c9b40.png"
+  },
+  {
+    "revision": "a9dd56a8338a9759016f0d80140c7474",
+    "url": "/portfolio/static/media/SD Static Store Front.a9dd56a8.png"
+  },
+  {
     "revision": "955831af0570aec72a09527cee4b9a93",
     "url": "/portfolio/static/media/bitsySitePic2.955831af.png"
   },
@@ -46,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "912a0903f49423953202c6cbf9bbe7af",
     "url": "/portfolio/static/media/spaceVisualizerPic.912a0903.png"
+  },
+  {
+    "revision": "618199956b49c7a33d1498b4cffb899c",
+    "url": "/portfolio/static/media/ticketApprentice.61819995.png"
   }
 ]);
